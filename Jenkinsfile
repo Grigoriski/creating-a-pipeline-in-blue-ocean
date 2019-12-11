@@ -15,7 +15,7 @@ pipeline {
 
     stage('Test') {
       steps {
-        echo 'test webhook'
+        echo 'test webhook1'
         sh './jenkins/scripts/test.sh'
       }
     }
